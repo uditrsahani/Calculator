@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: darkgray;
+  font-size: 18px;
+  
+}
+
+.calculator_flex{
+  display: flex;
+  margin-top: 15%;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* BUTTONS */
+.btn{
+  height: 40px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  
+}
+
+/* ANSWER */
+.answer{
+  font-size: 18px;
+  font-size: large;
+  color: white; 
+ 
+}
+
+
+
+.break {
+  flex-basis: 100%;
+ 
+}
+
+/* CREDITS */
+.credits{
+  display: flex;
+  justify-content: center;
+ 
+  align-items: center;
+  
+}
+
+.credits > p {
+  position:absolute;
+  bottom: 5px;
+  font-family: 'Taviraj', serif;
+  
+}
+.credits > p > a{
+  text-decoration: none;
+}
+
+/* Calculate Button */
+#calculate_btn{
+  width: 20%;
+}
